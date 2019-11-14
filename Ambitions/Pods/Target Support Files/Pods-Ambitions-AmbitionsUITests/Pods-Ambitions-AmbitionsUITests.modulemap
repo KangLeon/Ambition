@@ -1,0 +1,6 @@
+framework module Pods_Ambitions_AmbitionsUITests {
+  umbrella header "Pods-Ambitions-AmbitionsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
