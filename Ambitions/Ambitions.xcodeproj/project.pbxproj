@@ -15,6 +15,7 @@
 		59544B262322318C002309CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59544B242322318C002309CD /* LaunchScreen.storyboard */; };
 		59544B312322318C002309CD /* AmbitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59544B302322318C002309CD /* AmbitionsTests.swift */; };
 		59544B3C2322318C002309CD /* AmbitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59544B3B2322318C002309CD /* AmbitionsUITests.swift */; };
+		59A54116258A687B005055D7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A54115258A687B005055D7 /* SettingsViewController.swift */; };
 		67BC1465C53E2B5D5A0CA4FC /* Pods_Ambitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2055E0CDE381A6CB0D1E79EA /* Pods_Ambitions.framework */; };
 		F03E07834822018422531973 /* Pods_AmbitionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F2263510FCFDCA9B39F474 /* Pods_AmbitionsTests.framework */; };
 		FA065E85E2313C91DC1A3288 /* Pods_Ambitions_AmbitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1233893914E3F6F79E54B6DD /* Pods_Ambitions_AmbitionsUITests.framework */; };
@@ -58,6 +59,7 @@
 		59544B3B2322318C002309CD /* AmbitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbitionsUITests.swift; sourceTree = "<group>"; };
 		59544B3D2322318C002309CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59930909257FD89B00FB27B3 /* Ambitions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ambitions.entitlements; sourceTree = "<group>"; };
+		59A54115258A687B005055D7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		601299211381557A9B5065CE /* Pods-AmbitionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbitionsTests.debug.xcconfig"; path = "Target Support Files/Pods-AmbitionsTests/Pods-AmbitionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B286E44CBAA3686100E4BD1F /* Pods-Ambitions-AmbitionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambitions-AmbitionsUITests.release.xcconfig"; path = "Target Support Files/Pods-Ambitions-AmbitionsUITests/Pods-Ambitions-AmbitionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B8F1A48786ECBB15856498A3 /* Pods-AmbitionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbitionsTests.release.xcconfig"; path = "Target Support Files/Pods-AmbitionsTests/Pods-AmbitionsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				59930909257FD89B00FB27B3 /* Ambitions.entitlements */,
 				59544B1823223189002309CD /* AppDelegate.swift */,
 				59544B1A23223189002309CD /* ViewController.swift */,
+				59A54115258A687B005055D7 /* SettingsViewController.swift */,
 				59544B1C23223189002309CD /* Main.storyboard */,
 				59544B222322318C002309CD /* Assets.xcassets */,
 				59544B242322318C002309CD /* LaunchScreen.storyboard */,
@@ -376,6 +379,7 @@
 				59544B1B23223189002309CD /* ViewController.swift in Sources */,
 				59544B2123223189002309CD /* Ambitions.xcdatamodeld in Sources */,
 				59544B1923223189002309CD /* AppDelegate.swift in Sources */,
+				59A54116258A687B005055D7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
