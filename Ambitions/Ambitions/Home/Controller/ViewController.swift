@@ -79,5 +79,9 @@ extension ViewController: UITextFieldDelegate{
         
         listTableview.reloadData()
     }
+    
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        return true
+    }
 }
 

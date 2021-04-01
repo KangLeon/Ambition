@@ -25,11 +25,11 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="GbA-RG-GIG"/>
                                 </connections>
                             </tableView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请添加代办事项，回车即可创建" textAlignment="natural" minimumFontSize="17" id="qxg-vr-R5z">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请添加代办事项，回车即可创建" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" id="qxg-vr-R5z">
                                 <rect key="frame" x="20" y="72" width="388" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="3Kh-Ny-MAp"/>
                                 </connections>
